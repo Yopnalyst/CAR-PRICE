@@ -11,7 +11,7 @@ def main():
     """
     
     model = xgb.XGBRegressor()
-    model.load_model("C:/Users/YOP DACHALSON/Desktop/CODE PLATEAU/machine learning/CODE PEE PROJECTS/xgb_model.json")
+    model.load_model("xgb_model.json")
     
     st.markdown(html_temp, unsafe_allow_html = True)
     st.write ('')
